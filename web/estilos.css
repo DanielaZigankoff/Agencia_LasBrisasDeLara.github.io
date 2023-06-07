@@ -1,0 +1,79 @@
+@font-face {
+    font-family: travel;
+    src: url(./fuentes/Travel\ Journal.ttf);
+}
+@font-face {
+    font-family: caviar;
+    src: url(./fuentes/CaviarDreams.ttf);
+}
+
+*{
+    font-family: 'Segoe UI';
+}
+
+header{
+    background-color: rgb(228, 228, 228);
+    height: 100px;
+    margin: 0;
+}
+div{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+a{
+    color: black;
+    text-decoration: underline;
+}
+
+h1{
+    font-family: travel;
+}
+h2{
+    font-family: caviar;
+    font-size: small;
+}
+#logo{
+    height: 70px;
+    width: 90px;
+    margin-left: 12px;
+    margin-top: 8px;
+    margin-right: 0px;
+}
+#navHeader{
+    display: inline-block;
+}
+
+main{
+    padding: 0 10%;
+}
+
+#sect{
+    background-color: white;
+    opacity: 0,7;
+    margin: 10px;
+    border-radius: 1%;
+}
+#di.sect{
+    margin: 20px;
+}
+h5{
+    font-size: x-large;
+    color: rgb(0, 111, 43);
+    margin-top: 10px;
+}
+
+body{
+    background-image: url(./img/obelisco\ bqto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+    margin:0;
+}
+
+footer{
+    background-color: coral;
+    color: white;
+    margin: 0px;
+}
